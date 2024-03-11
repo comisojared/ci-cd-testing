@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Version 2.0 Kamagong Version
+          Version 69 Kamagong Version
         </p>
         <a
           className="App-link"
