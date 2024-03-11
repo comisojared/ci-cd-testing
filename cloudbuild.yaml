@@ -1,9 +1,9 @@
 steps:
   # Build the container image 
   - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'asia-southeast1-docker.pkg.dev/model-almanac-378716/artifact-registry-jared/image-jared', '.']
+    args: ['build', '-t', 'asia-southeast1-docker.pkg.dev/model-almanac-378716/artifact-registry-jared/image-jared', '.']
   # Push the container image to Container Registry
   - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'asia-southeast1-docker.pkg.dev/model-almanac-378716/artifact-registry-jared/image-jared']
+    args: ['push', 'asia-southeast1-docker.pkg.dev/model-almanac-378716/artifact-registry-jared/image-jared']
 images:
   - 'asia-southeast1-docker.pkg.dev/model-almanac-378716/artifact-registry-jared/image-jared'
